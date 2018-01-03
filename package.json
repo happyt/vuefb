@@ -11,7 +11,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "adobe-swatch-exchange": "0.0.0",
     "firebase": "^4.8.1",
+    "tape": "^4.8.0",
+    "test": "^0.6.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

@@ -1,0 +1,54 @@
+{ groups: [], colors: [
+    { name: 'PANTONE 15-2718 TCX', model: 'RGB', color: [
+        0.875,
+        0.533,
+        0.718
+      ], type: 'global'
+    },
+    { name: 'PANTONE 18-3838 TCX', model: 'RGB', color: [
+        0.373,
+        0.294,
+        0.545
+      ], type:
+  'global'
+    },
+    { name: 'PANTONE 18-2045 TCX', model: 'RGB', color: [
+        0.776,
+        0.137,
+        0.408
+      ], type: 'global'
+    },
+    { name: 'PANTONE 14-0626 TCX', model: 'RGB', color: [
+        0.8,
+        0.725,
+        0.494
+      ], type: 'global'
+    },
+    { name:
+  'PANTONE 19-1557 TCX', model: 'RGB', color: [
+        0.608,
+        0.106,
+        0.188
+      ], type: 'global'
+    },
+    { name: 'PANTONE
+  17-0843 TCX', model: 'RGB', color: [
+        0.612,
+        0.494,
+        0.255
+      ], type: 'global'
+    },
+    { name: 'PANTONE 18-3331 TCX', model: 'RGB', color: [
+        0.553,
+        0.275,
+        0.529
+      ], type: 'global'
+    },
+    { name: 'PANTONE 19-0510 TCX', model: 'RGB', color: [
+        0.373,
+        0.361,
+        0.298
+      ], type: 'global'
+    }
+  ], version: '1.0'
+}

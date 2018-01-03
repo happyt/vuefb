@@ -6,6 +6,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+var config = require(`./config.js`);
+firebase.initializeApp(config);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -3,16 +3,23 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import firebase from 'firebase'
 
 Vue.config.productionTip = false
 
-var config = require(`./config.js`);
-firebase.initializeApp(config);
+let app
+var fbconfig = require(`../fbconfig.js`)
+// console.log('FB', fbconfig)
 
+firebase.initializeApp(fbconfig)
+firebase.auth().onAuthStateChanged(function (user) {
+  if (!app) {
 /* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: { App }
+    app = new Vue({
+      el: '#app',
+      template: '<App/>',
+      components: { App },
+      router
+    })
+  }
 })
